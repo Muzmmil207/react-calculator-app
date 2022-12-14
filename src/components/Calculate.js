@@ -1,5 +1,4 @@
-import React , {useEffect, useRef } from 'react';
-import ReactDOM from 'react-dom/client';
+import React  from 'react';
 
 function CalculatorInput ({setInputValue, inputValue}){
     const inputValueHandler = (e)=>{
